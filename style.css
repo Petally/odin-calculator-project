@@ -1,0 +1,23 @@
+#calculatorContainer {
+    width: 512px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 16px;
+}
+
+.numRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.numberButton {
+    padding: 8px;
+    margin: 2px;
+}
+
+.display {
+    border: 1px solid black;
+    padding: 4px;
+}
