@@ -12,7 +12,7 @@
     flex-direction: row;
 }
 
-.numberButton {
+button {
     padding: 8px;
     margin: 2px;
 }
@@ -20,4 +20,5 @@
 .display {
     border: 1px solid black;
     padding: 4px;
+    min-height: 1em;
 }
