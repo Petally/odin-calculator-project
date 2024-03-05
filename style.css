@@ -1,24 +1,35 @@
 #calculatorContainer {
-    width: 512px;
-    height: 512px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-
     padding: 16px;
+    width: 256px;
+    height: 512px;
 }
 
 .numRow {
     display: flex;
     flex-direction: row;
+    align-self: center;
+    width: 100%;
 }
 
 button {
+    flex-grow: 1;
     padding: 8px;
     margin: 2px;
+    background-color: black;
+    color: white;
 }
 
 .display {
+    align-items: flex-start;
     border: 1px solid black;
     padding: 4px;
     min-height: 1em;
+}
+
+.opBtn, #clearBtn, #equalsBtn {
+    background-color: #22EE22;
+    color: black;
 }
